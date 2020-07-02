@@ -79,7 +79,7 @@ header {
 }
 
 .margin-2 div {
-    padding-right: 120px;
+    padding-right: 10px;
 }
 
 .mt-6 {
@@ -296,11 +296,6 @@ footer {
     position: relative;
 }
 
-.svg-display {
-    fill: white;
-    
-}
-
 .subscribe-btn {
     background-color: var(--yellow) !important;
     color: var(--deep-black) !important;
@@ -357,6 +352,7 @@ footer {
     .margin-2 {
         margin-left: 56px;
         margin-top: 20px;
+        padding-right: 10px;
     }
 
     .margin-2 h1 {
@@ -367,13 +363,17 @@ footer {
         line-height: 12px;
     }
 
+    .margin-2 div {
+        padding-right: 120px;
+    }
+
     .btn-md.trans-btn {
         margin-right: -120px;
         margin-left: 19px;
     }
 
     .pr-sm {
-        padding-right: 60px;
+        padding-right: 10px;
     }
 
     .mt-6 {
@@ -504,7 +504,7 @@ footer {
     }
 
     header {
-        height: 500px;
+        height: 570px;
         position: relative;
         background-size: contain;
         background-position: right;
@@ -526,6 +526,7 @@ footer {
     .margin-2 {
         margin-left: 56px;
         margin-top: 20px;
+        padding-right: 10px;
     }
 
     .margin-2 h1 {
@@ -537,7 +538,7 @@ footer {
     }
 
     .pr-sm {
-        padding-right: 60px;
+        padding-right: 0px;
     }
 
     .mt-6 {
@@ -648,7 +649,7 @@ footer {
     }
 }
 
-@media (max-width: 910px) and (min-width: 768px) {
+@media (max-width: 910px) and (min-width: 769px) {
     /* header */
     header {
         overflow: hidden;
@@ -676,6 +677,19 @@ footer {
     /* ros */
     .ros div {
         margin-left: 100px;
+    }
+
+    .ros .img-shape {
+        width: 150px;
+        height: 60px;
+        border: 1px solid #304A39;
+        border-radius: 3px;
+    }
+
+    .ros .img-shape img {
+        width: 170px;
+        height: 270px;
+        border-radius: 3px;
     }
 
     /* amazing services */
